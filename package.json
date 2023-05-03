@@ -1,0 +1,17 @@
+{
+  "name": "wdio-training-api",
+  "type": "module",
+  "scripts": {
+    "spec": "mocha",
+    "spec-report": "mocha -R allure-mocha && allure serve"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.22.0",
+    "allure-mocha": "^2.2.1",
+    "axios": "^1.4.0",
+    "chance": "^1.1.11",
+    "jest-matchers": "^20.0.3",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.0"
+  }
+}
